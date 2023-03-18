@@ -8,6 +8,7 @@ namespace Online_learning.Entities
         public string Description { get; set; }
         public string Teacher { get; set; }
         public int NumberOfStudents { get; set; }
+        public int StudentId { get; set; }
         public Students Student { get; set; }
         public List<Assignments> Assignment { get; set; }
     }
